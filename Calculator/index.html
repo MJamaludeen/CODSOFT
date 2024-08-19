@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <h1 class="title">Simple Calculator</h1>
+      <div class="inputs">
+        <input type="number" class="num1" placeholder="Number 1" />
+        <select id="selectOp" class="operator">
+          <option value="plus">+</option>
+          <option value="min">-</option>
+          <option value="multi">*</option>
+          <option value="dev">/</option>
+        </select>
+        <input type="number" class="num2" placeholder="Number 2" />
+      </div>
+      <button id="btn" class="submitBtn">Calculate</button>
+      <div class="result-box">
+        <h2 class="result">Result: <span id="resultValue">0</span></h2>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
